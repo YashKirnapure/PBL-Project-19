@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="allbook.css">
+    <title>Library</title>
+</head>
+
+<style>
+
+    body{  
+        background-color: rgb(199, 199, 199);
+        font-family: sans-serif;
+    }
+
+    .header{
+        font-size: 20px;
+        color: #0fbcf9;
+    }
+    .navbar{
+        display: flex;
+        height: 6vh;
+        border: 2px solid white;
+        padding-left: 20px;
+        align-items: center;
+        box-shadow: 0 2px 4px 0 white;
+        background-color: rgb(108, 76, 76);
+    }
+    .test{
+        font-size: 27px;
+    }
+    input{
+        font-size: 19px;
+    }
+    button{
+        font-size: 27px;
+        font-family: 'Merriweather', serif;
+    }
+.nav-left{
+    flex-basis: 50%;
+}
+
+.nav-right{
+    
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40vw;
+    align-items: center;
+}
+
+.nav-right a{
+    text-decoration: none;
+    color:white;
+    padding: 3px;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+
+.search input{
+    padding: 4px;
+    margin-left: 15px;
+    border-radius: 13px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.search button{
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 2px;
+    
+}
+
+.mid {
+    padding: 5px;
+    /* border: 2px solid black; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-img{
+     
+    border: 2px solid black;
+    background-image: url(book31.jpg);
+    background-size: cover;
+    padding: 30px;
+   
+    margin: 10px;
+    height: 630px;
+    width: 400px;
+    margin: 45px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: 0 12px 20px 4px grey;
+}
+
+.book-title{
+    font-size: 2.5vh;
+}
+
+.book-info{
+    padding: 10px;
+    font-size: 2vh;
+    padding :10px 60px;
+}
+
+.review{
+    padding: 10px;
+    /* border: 2px solid black; */
+    margin: 5px;
+    height: 60vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.add-review{
+    font-size: 2.6vh;
+}
+
+.review-box textarea{
+   height: 25vh;
+   width: 60vw;
+   border-radius: 10px;
+   padding: 30px;
+   margin-bottom: 20px;
+   font-size: 25px;
+}
+
+.review button{
+    padding: 16px;
+    margin: 5px 900px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.review button:hover{
+    background-color: black;
+    color: white;
+}
+
+.people-review{
+    height: 30vh;
+    width: 80vw;
+    background-color: rgb(216, 220, 223);
+    border-radius: 20px;
+    margin: auto;
+   
+    margin-bottom: 120px;
+    box-shadow: 5px 5px 5px 5px rgb(195, 193, 193);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+</style>
+
+
+
+
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <div class="nav-left">
+                <div class="title-nav">
+                   <h3>MESCOE   LIBRARY   BOOK   REVIEWS 📚</h3> 
+                </div>
+    
+            </div>
+            
+            <div class="nav-right">
+                
+                <div class="home-nav">
+                    <a href="index.html" class="home">Home</a>
+                </div>
+
+                <div class="contact-nav">
+                    <a href="CONTACT.HTML" class="contact">Contact</a>
+                </div>
+
+                <div class="search">
+                    <input type="text" name="search" placeholder="Search Books 🔍︎"/>
+                    <button type="button">Search</button>
+                </div>
+            </div>
+           
+        </nav>
+    </div>
+
+
+    <div class="container">
+
+        <div class="mid">
+
+            <div class="book-img">
+                
+            </div>
+            <div class="book-title">
+                <h1>1984 </h1>
+            </div>
+
+            <div class="book-info">
+                <h4>The new novel by George Orwell is the major work towards which all his previous writing has pointed. Critics have hailed it as his "most solid, most brilliant" work. Though the story of Nineteen Eighty-Four takes place thirty-five years hence, it is in every sense timely. The scene is London, where there has been no new housing since 1950 and where the city-wide slums are called Victory Mansions. Science has abandoned Man for the State. As every citizen knows only too well, war is peace.
+
+                    To Winston Smith, a young man who works in the Ministry of Truth (Minitru for short), come two people who transform this life completely. One is Julia, whom he meets after she hands him a slip reading, "I love you." The other is O'Brien, who tells him, "We shall meet in the place where there is no darkness." The way in which Winston is betrayed by the one and, against his own desires and instincts, ultimately betrays the other, makes a story of mounting drama and suspense.
+                    
+                </h4>
+            </div>
+
+        </div>
+
+        <br>
+        <hr>
+
+
+    </div>
+
+    <div class="review">
+
+        <div class="add-review">
+            <h2>Add Review</h2>
+        </div>
+
+       
+
+        <form action="https://formsubmit.co/udaykaple5@gmail.com" method="POST">
+            <div class="review-box">     
+                <textarea rows="5" name="review-box" placeholder="Write Your Review Here...."></textarea>
+            </div>
+    
+           
+            <button type="submit"  onclick="myFunction()">Post Review</button>
+        </form>
+        
+
+        <div class="recent-reviews">
+            <div class="recent-review-title">
+                <h2>Recent Reviews</h2>
+            </div>
+
+            <div class="people-review">
+                <div class="written-review">
+                    <h3>This is a good book</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Your Review Has Been Submitted!")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+    
+</html>

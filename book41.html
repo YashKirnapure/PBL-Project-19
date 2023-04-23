@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="allbook.css">
+    <title>Library</title>
+</head>
+
+<style>
+
+    body{  
+        background-color: rgb(199, 199, 199);
+        font-family: sans-serif;
+    }
+
+    .header{
+        font-size: 20px;
+        color: #0fbcf9;
+    }
+    .navbar{
+        display: flex;
+        height: 6vh;
+        border: 2px solid white;
+        padding-left: 20px;
+        align-items: center;
+        box-shadow: 0 2px 4px 0 white;
+        background-color: rgb(108, 76, 76);
+    }
+    .test{
+        font-size: 27px;
+    }
+    input{
+        font-size: 19px;
+    }
+    button{
+        font-size: 27px;
+        font-family: 'Merriweather', serif;
+    }
+.nav-left{
+    flex-basis: 50%;
+}
+
+.nav-right{
+    
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40vw;
+    align-items: center;
+}
+
+.nav-right a{
+    text-decoration: none;
+    color:white;
+    padding: 3px;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+
+.search input{
+    padding: 4px;
+    margin-left: 15px;
+    border-radius: 13px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.search button{
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 2px;
+    
+}
+
+.mid {
+    padding: 5px;
+    /* border: 2px solid black; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-img{
+     
+    border: 2px solid black;
+    background-image: url(book41.jpg);
+    background-size: cover;
+    padding: 30px;
+   
+    margin: 10px;
+    height: 630px;
+    width: 400px;
+    margin: 45px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: 0 12px 20px 4px grey;
+}
+
+.book-title{
+    font-size: 2.5vh;
+}
+
+.book-info{
+    padding: 10px;
+    font-size: 2vh;
+    padding :10px 60px;
+}
+
+.review{
+    padding: 10px;
+    /* border: 2px solid black; */
+    margin: 5px;
+    height: 60vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.add-review{
+    font-size: 2.6vh;
+}
+
+.review-box textarea{
+   height: 25vh;
+   width: 60vw;
+   border-radius: 10px;
+   padding: 30px;
+   margin-bottom: 20px;
+   font-size: 25px;
+}
+
+.review button{
+    padding: 16px;
+    margin: 5px 900px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.review button:hover{
+    background-color: black;
+    color: white;
+}
+
+.people-review{
+    height: 30vh;
+    width: 80vw;
+    background-color: rgb(216, 220, 223);
+    border-radius: 20px;
+    margin: auto;
+   
+    margin-bottom: 120px;
+    box-shadow: 5px 5px 5px 5px rgb(195, 193, 193);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+</style>
+
+
+
+
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <div class="nav-left">
+                <div class="title-nav">
+                   <h3>MESCOE   LIBRARY   BOOK   REVIEWS 📚</h3> 
+                </div>
+    
+            </div>
+            
+            <div class="nav-right">
+                
+                <div class="home-nav">
+                    <a href="index.html" class="home">Home</a>
+                </div>
+
+                <div class="contact-nav">
+                    <a href="CONTACT.HTML" class="contact">Contact</a>
+                </div>
+
+                <div class="search">
+                    <input type="text" name="search" placeholder="Search Books 🔍︎"/>
+                    <button type="button">Search</button>
+                </div>
+            </div>
+           
+        </nav>
+    </div>
+
+
+    <div class="container">
+
+        <div class="mid">
+
+            <div class="book-img">
+                
+            </div>
+            <div class="book-title">
+                <h1>An Elegant Puzzle</h1>
+            </div>
+
+            <div class="book-info">
+                <h4>There’s a saying that people don’t leave companies, they leave managers. Management is a key part of any organization, yet the discipline is often self-taught and unstructured. Getting to the good solutions for complex management challenges can make the difference between fulfillment and frustration for teams, and, ultimately, between the success and failure of companies.
+
+                    Will Larson’s An Elegant Puzzle focuses on the particular challenges of engineering management—from sizing teams to handling technical debt to performing succession planning—and provides a path to the good solutions. Drawing from his experience at Digg, Uber, and Stripe, Larson has developed a thoughtful approach to engineering management for leaders of all levels at companies of all sizes. An Elegant Puzzle balances structured principles and human-centric thinking to help any leader create more effective and rewarding organizations for engineers to thrive in.
+                </h4>
+            </div>
+
+        </div>
+
+        <br>
+        <hr>
+
+
+    </div>
+
+    <div class="review">
+
+        <div class="add-review">
+            <h2>Add Review</h2>
+        </div>
+
+       
+
+        <form action="https://formsubmit.co/udaykaple5@gmail.com" method="POST">
+            <div class="review-box">     
+                <textarea rows="5" name="review-box" placeholder="Write Your Review Here...."></textarea>
+            </div>
+    
+           
+            <button type="submit"  onclick="myFunction()">Post Review</button>
+        </form>
+        
+
+        <div class="recent-reviews">
+            <div class="recent-review-title">
+                <h2>Recent Reviews</h2>
+            </div>
+
+            <div class="people-review">
+                <div class="written-review">
+                    <h3>An Elegant Puzzle is to date the most hands-on perspective on engineering management within a high-growth, tech-first organization, that I have read. It's a long overdue book for engineering managers and leads. Having read many management and engineering management books, what set Will's book apart is it starts right where the others end. An Elegant Puzzle wastes no time - especially not in the beginning - on covering the generic manager's toolkit, such as 1:1s, giving feedback, team building, which many other books devote a good chunk of their content. Instead, it talks about the engineering pain points that come with a high-growth organization and team, once management fundamentals are in place. What to do when our systems are slowing us down, but we have too many migrations? What's a good way to pay down tech debt? How do we say no, when there is so much work, but not enough people? How do we grow seniority evenly across the team?</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Your Review Has Been Submitted!")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+    
+</html>

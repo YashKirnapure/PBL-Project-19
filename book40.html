@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="allbook.css">
+    <title>Library</title>
+</head>
+
+<style>
+
+    body{  
+        background-color: rgb(199, 199, 199);
+        font-family: sans-serif;
+    }
+
+    .header{
+        font-size: 20px;
+        color: #0fbcf9;
+    }
+    .navbar{
+        display: flex;
+        height: 6vh;
+        border: 2px solid white;
+        padding-left: 20px;
+        align-items: center;
+        box-shadow: 0 2px 4px 0 white;
+        background-color: rgb(108, 76, 76);
+    }
+    .test{
+        font-size: 27px;
+    }
+    input{
+        font-size: 19px;
+    }
+    button{
+        font-size: 27px;
+        font-family: 'Merriweather', serif;
+    }
+.nav-left{
+    flex-basis: 50%;
+}
+
+.nav-right{
+    
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40vw;
+    align-items: center;
+}
+
+.nav-right a{
+    text-decoration: none;
+    color:white;
+    padding: 3px;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+
+.search input{
+    padding: 4px;
+    margin-left: 15px;
+    border-radius: 13px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.search button{
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 2px;
+    
+}
+
+.mid {
+    padding: 5px;
+    /* border: 2px solid black; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-img{
+     
+    border: 2px solid black;
+    background-image: url(book38.jpg);
+    background-size: cover;
+    padding: 30px;
+   
+    margin: 10px;
+    height: 630px;
+    width: 400px;
+    margin: 45px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: 0 12px 20px 4px grey;
+}
+
+.book-title{
+    font-size: 2.5vh;
+}
+
+.book-info{
+    padding: 10px;
+    font-size: 2vh;
+    padding :10px 60px;
+}
+
+.review{
+    padding: 10px;
+    /* border: 2px solid black; */
+    margin: 5px;
+    height: 60vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.add-review{
+    font-size: 2.6vh;
+}
+
+.review-box textarea{
+   height: 25vh;
+   width: 60vw;
+   border-radius: 10px;
+   padding: 30px;
+   margin-bottom: 20px;
+   font-size: 25px;
+}
+
+.review button{
+    padding: 16px;
+    margin: 5px 900px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.review button:hover{
+    background-color: black;
+    color: white;
+}
+
+.people-review{
+    height: 30vh;
+    width: 80vw;
+    background-color: rgb(216, 220, 223);
+    border-radius: 20px;
+    margin: auto;
+   
+    margin-bottom: 120px;
+    box-shadow: 5px 5px 5px 5px rgb(195, 193, 193);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+</style>
+
+
+
+
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <div class="nav-left">
+                <div class="title-nav">
+                   <h3>MESCOE   LIBRARY   BOOK   REVIEWS 📚</h3> 
+                </div>
+    
+            </div>
+            
+            <div class="nav-right">
+                
+                <div class="home-nav">
+                    <a href="index.html" class="home">Home</a>
+                </div>
+
+                <div class="contact-nav">
+                    <a href="CONTACT.HTML" class="contact">Contact</a>
+                </div>
+
+                <div class="search">
+                    <input type="text" name="search" placeholder="Search Books 🔍︎"/>
+                    <button type="button">Search</button>
+                </div>
+            </div>
+           
+        </nav>
+    </div>
+
+
+    <div class="container">
+
+        <div class="mid">
+
+            <div class="book-img">
+                
+            </div>
+            <div class="book-title">
+                <h1>The 4 Hour Chef </h1>
+            </div>
+
+            <div class="book-info">
+                <h4>“If you crossed Jason Bourne with Julia Child, you’d end up with Tim Ferriss.” – Marco Canora, Chef-Partner of Hearth & Terroir
+
+                    “Wildly inventive.. [a] rangy, obsessive immersion in food and its many wonders. [T]he tools needed to learn to cook well can be deployed in every manner of endeavor, from skinning a deer to memorizing a deck of cards. The author distills them into minimal, learnable units and examines how to order the units so as to keep readers engaged in their endeavors. Ferriss is a beguiling guide to this process, at once charmingly smart aleck-y and deadly serious, and he aims to make readers knowledgeable and freethinking.” - Kirkus Reviews
+                    
+                    "Tim Ferriss distills kitchen wisdom like a rotary evaporator on power surge. The results are potent, lucid, and delicious." - Nick Kokonas, Co-Owner, Alinea, Next, The Aviary
+                    
+                    WHAT IF YOU COULD BECOME WORLD-CLASS IN ANYTHING IN 6 MONTHS OR LESS?
+                </h4>
+            </div>
+
+        </div>
+
+        <br>
+        <hr>
+
+
+    </div>
+
+    <div class="review">
+
+        <div class="add-review">
+            <h2>Add Review</h2>
+        </div>
+
+       
+
+        <form action="https://formsubmit.co/udaykaple5@gmail.com" method="POST">
+            <div class="review-box">     
+                <textarea rows="5" name="review-box" placeholder="Write Your Review Here...."></textarea>
+            </div>
+    
+           
+            <button type="submit"  onclick="myFunction()">Post Review</button>
+        </form>
+        
+
+        <div class="recent-reviews">
+            <div class="recent-review-title">
+                <h2>Recent Reviews</h2>
+            </div>
+
+            <div class="people-review">
+                <div class="written-review">
+                    <h3>I have been waiting a long time for this book. I wanted to know, most of all, how much was about cooking, and how much was about learning. Interestingly, it breaks down to about 20% learning, 80% how to cook. 80-120 pages are dedicated to learning, and the rest is about how to learn to cook, with anecdotes, quotes, and stories about learning sprinkled in. That being said, the 20% on learning is very good and Tim has some great learning strategies to add add to your repertoire.
+
+                        This review is focused mostly on the learning anything aspect of the book. I have gone though the cooking sections and for learning how to cook this book is without a doubt the best out there. I am big into cooking so I would have gotten the book just for learning how</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Your Review Has Been Submitted!")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+    
+</html>
