@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Courgette&family=Merriweather:ital@1&family=Righteous&family=Sedgwick+Ave+Display&family=Stalinist+One&family=Vast+Shadow&display=swap');
+
+*{
+    margin: 0;
+    overflow:visible;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+p{
+    font-size:40px;
+    color: #feca57;
+}
+
+h1{
+    color: #00b894;
+}
+
+/* h2{
+    margin-top: 10px;
+} */
+
+.hey{
+    box-shadow: 5px;
+    text-align: center;
+}
+.hrt{
+    color: #2aa0e9;
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+.quotes{
+    margin-top: 400px;
+    font-weight: 650;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 32px;
+}
+
+main{
+    border-radius: 5px;
+    background: url("to.avif");
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+}

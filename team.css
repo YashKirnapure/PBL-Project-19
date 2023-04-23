@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+main{
+    text-align:right;
+    margin-top: 0px;
+    padding: 160px;
+    height: 150vh;
+    width: 180vh;
+     background: url("1802071.webp");
+     /* background: url("t.png"); */
+     background-repeat: no-repeat; 
+     background-size: cover; 
+     background-position: center; 
+     text-align: center;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.section{
+    color: black;
+}
+
+.first{
+    font-size: 36px;
+    color: #25c156;
+    text-decoration: underline;
+}
