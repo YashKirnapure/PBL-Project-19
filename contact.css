@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("black.jpg");
+}
+
+.text {
+    margin-top: 70px;
+    font-family: 'Lobster', cursive;
+    font-size: 42px;
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+    /* height: 160px; */
+    margin-left: 100px;
+
+}
+#second{
+    height: 180px;
+    width: 700px;
+}
+.desc {
+    margin-top: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+    margin-left: 100px;
+    background-color: black;
+    color: white;
+}
+
+input{
+    height: 60px;
+    width: 400px;
+    color: white;
+    font-size: 23px;
+}
+
+h2{
+    margin-top: 16px;
+    /* padding: 20px; */
+}
+.area{
+    margin-top: 25px;
+    font-family: 'Lobster', cursive;
+    margin-left: 100px;
+    font-size: 22px;
+    color: white;
+    font-size: max(16px, 1em);
+    background-color: black;
+}
+#first{
+    color: white;
+    margin-top: 20px;
+    /* background-color: white; */
+    font-size: 22px;
+    font-family: 'Lobster', cursive;
+    height: 45px;
+    width: 120px;
+    border-radius: 9px;
+}
+.reachus{
+    text-align: right;
+    font-family: 'Lobster', cursive;
+    margin-top: -280px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: 'Lobster', cursive;
+    margin-right: 350px;
+    text-decoration: underline;
+}
+#email{
+    margin-right: 32px;
+}
+#third{
+margin-right: 135px;
+}
+#fourth{
+margin-right: 165px;
+}
+#fifth{
+    margin-right: 150px;
+}
+#sixth{
+    margin-right: 40px;
+}
+.rightside{
+    margin-right: 170px;
+    text-align: right;
+    font-family: 'Lobster', cursive;
+    background-color: black;
+    margin-top: -135px;
+    padding-top: 135px;
+    color: white;
+}
